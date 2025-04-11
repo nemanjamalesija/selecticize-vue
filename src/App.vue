@@ -1,5 +1,4 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import Selecticize from './components/selecticize.vue'
 import { ref } from 'vue'
 
