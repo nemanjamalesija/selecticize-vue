@@ -10,12 +10,19 @@
 	</div>
 </template>
 <script lang="ts">
-import { ref } from 'vue';
 import Selecticize from './components/selecticize.vue';
 
-const sources = [
-	{ id: 'consumption', title: 'Graf potrošnje' },
-	{ id: 'correlation', title: 'Korelacija' },
-	{ id: 'regression', title: 'Regresivna Analiza' }
-];
+export default {
+	components: { Selecticize },
+
+	computed: {
+		sources() {
+			return [
+				{ id: 'consumption', title: 'Graf potrošnje' },
+				{ id: 'correlation', title: 'Korelacija' },
+				{ id: 'regression', title: 'Regresivna Analiza' }
+			];
+		}
+	}
+};
 </script>
