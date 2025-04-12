@@ -10,7 +10,6 @@
 	</div>
 </template>
 <script setup>
-import { ref } from 'vue';
 import Selecticize from './components/selecticize.vue';
 
 const sources = [
