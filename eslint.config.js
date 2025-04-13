@@ -26,6 +26,8 @@ export default defineConfig([
 		files: ['**/*.{ts,tsx,vue}'],
 		extends: [importPlugin.flatConfigs.recommended, importPlugin.flatConfigs.typescript],
 		rules: {
+			'arrow-parens': 1,
+    		'arrow-body-style': 1, 
 			'import/order': [
 				1,
 				{
