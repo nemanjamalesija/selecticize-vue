@@ -28,7 +28,16 @@ export default defineConfig([
 		rules: {
 			'no-unneeded-ternary': 1,
 			'arrow-parens': 1,
-    		'arrow-body-style': 1, 
+			'arrow-body-style': 1,
+			'prefer-arrow-callback': 1,
+			'import/first': 1,
+			'import/no-duplicates': 1,
+			'import/prefer-default-export': 0,
+			'import/named': 2,
+			'import/default': 2,
+			'import/no-commonjs': 2,
+			'import/no-unresolved': 2,
+			'import/no-nodejs-modules': 2,
 			'import/order': [
 				1,
 				{
@@ -41,15 +50,7 @@ export default defineConfig([
 					],
 					'newlines-between': 'never'
 				}
-			],
-			'import/first': 1,
-			'import/no-duplicates': 1,
-			'import/prefer-default-export': 0,
-			'import/named': 2,
-			'import/default': 2,
-			'import/no-commonjs': 2,
-			'import/no-unresolved': 2,
-			'import/no-nodejs-modules': 2
+			]
 		}
 	},
 	{
