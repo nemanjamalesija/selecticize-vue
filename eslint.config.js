@@ -41,6 +41,7 @@ export default defineConfig([
 					'newlines-between': 'never'
 				}
 			],
+			'import/no-duplicates': 1,
 			'import/prefer-default-export': 0,
 			'import/named': 2,
 			'import/default': 2,
