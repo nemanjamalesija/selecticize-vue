@@ -26,6 +26,7 @@ export default defineConfig([
 		files: ['**/*.{ts,tsx,vue}'],
 		extends: [importPlugin.flatConfigs.recommended, importPlugin.flatConfigs.typescript],
 		rules: {
+			'no-unneeded-ternary': 1,
 			'arrow-parens': 1,
     		'arrow-body-style': 1, 
 			'import/order': [
@@ -41,6 +42,7 @@ export default defineConfig([
 					'newlines-between': 'never'
 				}
 			],
+			'import/first': 1,
 			'import/no-duplicates': 1,
 			'import/prefer-default-export': 0,
 			'import/named': 2,
