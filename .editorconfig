@@ -1,0 +1,27 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{js,cjs,css,scss,vue}]
+indent_style = tab
+
+[Makefile]
+indent_style = tab
+
+[phpstan-baseline*]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.json]
+insert_final_newline = false
+
+[package.json]
+insert_final_newline = true
