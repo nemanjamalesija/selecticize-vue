@@ -4,7 +4,7 @@
 			:sources="sources"
 			:maxInputs="4"
 			:index="1"
-			placeholder="bla"
+			placeholder="Some placeholder text..."
 			payloadKey="kind"
 		/>
 	</div>
@@ -20,7 +20,11 @@ export default {
 			return [
 				{ id: 'consumption', title: 'Graf potrošnje' },
 				{ id: 'correlation', title: 'Korelacija' },
-				{ id: 'regression', title: 'Regresivna Analiza' }
+				{ id: 'regression', title: 'Regresivna Analiza' },
+				{ id: 'next-1', title: 'Masna Konstrakta' },
+				{ id: 'next-2', title: 'Marsupulami Slajs' },
+				{ id: 'next-3', title: 'La vida es un carousel' },
+				{ id: 'next-4', title: 'Tengo mi novia' }
 			];
 		}
 	}

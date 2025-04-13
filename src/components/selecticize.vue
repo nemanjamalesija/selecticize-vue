@@ -96,7 +96,7 @@ export default defineComponent({
 			selectedInputs: [] /** TODO:  accept default number of accepted items  */,
 			handleDocumentClick: null,
 			text: '',
-
+			activeInput: null,
 			arrowSelectionIndex: 0,
 			highlitedChoice: null
 		};
